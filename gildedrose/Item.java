@@ -18,18 +18,7 @@ public class Item {
         this.quality = quality;
     }
 
-   @Override
-   public String toString() {
-        return this.name + ", " + this.sellIn + ", " + this.quality;
-    }
-
-    public static void main(String args[]) {
-
-        List<Item> items = new ArrayList<>();
-        
-
-        GildedRose gilda = new GildedRose(items);        
-    }
+   
 }
 
 
